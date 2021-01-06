@@ -1,7 +1,8 @@
 import React from 'react'
+import DrinkWater from './components/DrinkWater'
 
 const App = () => {
-  return <h1>BoilerPlate</h1>
+  return <DrinkWater />
 }
 
 export default App
