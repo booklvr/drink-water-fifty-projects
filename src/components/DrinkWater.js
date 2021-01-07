@@ -21,8 +21,8 @@ const DrinkWater = () => {
       </p>
 
       <div className='cups'>
-        <div className='cup cup-small'>250 ml</div>
-        <div className='cup cup-small'>250 ml</div>
+        <div className='cup cup-small full'>250 ml</div>
+        <div className='cup cup-small full'>250 ml</div>
         <div className='cup cup-small'>250 ml</div>
         <div className='cup cup-small'>250 ml</div>
         <div className='cup cup-small'>250 ml</div>

@@ -25,5 +25,52 @@ h3 {
     border-radius: 0 0 15px 15px;
     background-color: rgba(255, 255, 255, 0.9);
     cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: 0.3s ease;
+
+    &.full {
+      background-color: $fill-color;
+      color: #fff;
+    }
   }
+
+  .remained {
+    @include center;
+    text-align: center;
+    flex: 1;
+    transition: 0.3s ease;
+
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .percentage {
+    background-color: $fill-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 0;
+    transition: 0.3s ease;
+  }
+}
+
+.text {
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
 }

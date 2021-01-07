@@ -15,5 +15,6 @@ body {
 
 #root {
   height: 100%;
-  @include center;
+  display: flex;
+  flex-direction: column;
 }
